@@ -1,0 +1,53 @@
+/* EditTaskForm Styling */
+.edit-task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .task-input {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #ddd;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 50px;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .cancel-button {
+    width: 100%;
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 50px;
+    box-sizing: border-box;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e53935;
+  }
+  
