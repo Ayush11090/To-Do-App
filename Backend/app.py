@@ -9,4 +9,4 @@ CORS(app)  # Enable Requests for React
 app.register_blueprint(task_routes, url_prefix="/api/tasks")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=port)
