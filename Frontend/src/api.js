@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://127.0.0.1:5000/api/tasks";
+const API_URL = "https://api.render.com/deploy/srv-ctufjm3tq21c73bi12ug?key=YVSeVWvnm48/api/tasks";
 
 export const getTasks = async () => {
   const response = await axios.get(API_URL);
